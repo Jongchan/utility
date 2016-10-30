@@ -5,8 +5,9 @@
 - install `nvidia driver` (need to turn off the X-server by `sudo service lightdm stop`.)
 
 ## Installation
-- install docker
-- install nvidia-docker
+- [instructions](https://github.com/dgyoo/my-machine-setup/blob/master/nvidia-docker.md) from @dgyoo
+  - install docker
+  - install nvidia-docker
 - pull images from official docker repository ([Tensorflow docker images](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html#docker-installation))
 
 ## Docker command line tools
