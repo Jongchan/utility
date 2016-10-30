@@ -2,4 +2,4 @@
 
 Instructions for setups
 
-- docker_instruction.md: instructions for setting up docker in ubuntu 14.04
+- **docker_usage.md**: instructions for setting up docker in ubuntu 14.04
