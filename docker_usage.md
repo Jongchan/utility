@@ -1,5 +1,7 @@
 # Instruction for docker setup in Ubuntu 14.04 LTS
 
+Tensorflow, Caffe
+
 ## Pre-requisite
 - install `openssh-client`
 - install `nvidia driver` (need to turn off the X-server by `sudo service lightdm stop`.)
@@ -9,6 +11,7 @@
   - install docker
   - install nvidia-docker
 - pull images from official docker repository ([Tensorflow docker images](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html#docker-installation))
+- Caffe also provides official Docker images, but CUDA 7.5 or higher is required for use. [link](https://github.com/BVLC/caffe)
 
 ## Docker command line tools
 - Run the docker image to container
